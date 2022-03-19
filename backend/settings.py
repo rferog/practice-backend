@@ -119,10 +119,7 @@ GRAPHQL_AUTH = {
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-CORS_ORIGIN_WHITELIST = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000"
-]
+CORS_ALLOW_ALL_ORIGINS = True
 
 UPDATE_MUTATION_FIELDS = ["first_name"]
 
